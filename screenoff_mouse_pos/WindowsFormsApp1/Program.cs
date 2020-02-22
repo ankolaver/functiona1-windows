@@ -44,12 +44,14 @@ namespace WindowsFormApp1
 
         static void Main(string[] args)
         {
-            int screenWidth = Screen.PrimaryScreen.Bounds.Width;
-            int screenHeight = Screen.PrimaryScreen.Bounds.Height;
+            
             bool flag = true;
             //Console.WriteLine("Resolution: " + screenWidth + "x" + screenHeight);
             while (true)
-            {   
+            {
+                // detects the screen width 
+                int screenWidth = Screen.PrimaryScreen.Bounds.Width;
+                int screenHeight = Screen.PrimaryScreen.Bounds.Height;
                 flag = true;
                 while (Cursor.Position.X > (screenWidth-10) && Cursor.Position.Y > (screenHeight-10) && flag==true) 
                 {

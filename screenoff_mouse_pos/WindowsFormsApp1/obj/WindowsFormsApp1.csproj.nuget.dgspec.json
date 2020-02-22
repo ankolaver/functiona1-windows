@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kenneth\\Desktop\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj": {}
+    "C:\\Users\\Kenneth\\Desktop\\WindowsFormsApp1\\screenoff_mouse_pos\\WindowsFormsApp1\\WindowsFormsApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kenneth\\Desktop\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj": {
+    "C:\\Users\\Kenneth\\Desktop\\WindowsFormsApp1\\screenoff_mouse_pos\\WindowsFormsApp1\\WindowsFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kenneth\\Desktop\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Kenneth\\Desktop\\WindowsFormsApp1\\screenoff_mouse_pos\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
         "projectName": "WindowsFormsApp1",
-        "projectPath": "C:\\Users\\Kenneth\\Desktop\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
+        "projectPath": "C:\\Users\\Kenneth\\Desktop\\WindowsFormsApp1\\screenoff_mouse_pos\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
         "packagesPath": "C:\\Users\\Kenneth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kenneth\\Desktop\\WindowsFormsApp1\\WindowsFormsApp1\\obj\\",
+        "outputPath": "C:\\Users\\Kenneth\\Desktop\\WindowsFormsApp1\\screenoff_mouse_pos\\WindowsFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kenneth\\AppData\\Roaming\\NuGet\\NuGet.Config",
