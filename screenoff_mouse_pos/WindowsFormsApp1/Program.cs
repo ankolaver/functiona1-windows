@@ -53,12 +53,12 @@ namespace WindowsFormApp1
                 int screenWidth = Screen.PrimaryScreen.Bounds.Width;
                 int screenHeight = Screen.PrimaryScreen.Bounds.Height;
                 flag = true;
-                while (Cursor.Position.X > (screenWidth-10) && Cursor.Position.Y > (screenHeight-10) && flag==true) 
+                while (Cursor.Position.X > (screenWidth - 5) && Cursor.Position.Y > (screenHeight - 5) && flag == true) 
                 {
                     SetMonitorState(MonitorState.OFF);
                     //Console.WriteLine("Screen off"+ Cursor.Position.X+" "+ Cursor.Position.Y);
                     flag = false;
-                    Thread.Sleep(300);
+                    Thread.Sleep(2000);
 
                     //break;
                 }
