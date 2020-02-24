@@ -10,3 +10,7 @@
 - Makes use of C# Forms (aka GUI) to get mouse position
 - Add to Task Scheduler to launch on start
 - Automatically detects the resolution of the screen and adjusts accordingly
+
+### If an error popup requires installation of a .NET core
+
+- go to https://dotnet.microsoft.com/download/dotnet-core/3.1 to install the .NET core framework
