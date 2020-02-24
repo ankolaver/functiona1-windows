@@ -12,7 +12,7 @@
 - Add to Task Scheduler to launch on start
 - Automatically detects the resolution of the screen and adjusts accordingly
 
-##### Do check out the Windows Autohotkey version over here(https://github.com/thepoppycat/WindowsApps).
+##### Do check out the [Windows Autohotkey version over here](https://github.com/thepoppycat/WindowsApps).
 
 #### If an error popup requires installation of a .NET core 
 
