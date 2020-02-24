@@ -1,7 +1,7 @@
 ## Windows 'Feature' Add-Ons
 
 
-## Screen Off Mouse Pos
+## Turns Screen off via mouse position
 1. Launch the EXE File
 2. Bring Mouse to Bottom Right Corner, and screen should turn off
 3. Shake Mouse out of bottom right corner, and screen should turn back on
