@@ -1,4 +1,4 @@
-## Windows 'Feature' Add-Ons
+# Windows 'Feature' Add-Ons
 
 ## [*multi-scroll*] Scroll Multiple windows Side by Side at Once
 1. Launch the EXE File
