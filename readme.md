@@ -6,7 +6,8 @@
 2. Alt-A. Click on the two windows which you intend to scroll at the same time.
 3. Scroll.. may have some bugs
 
-- Automatically detects the resolution of the screen and adjusts 
+#### Problems and Improvements:
+- Implementing scroll based on length of document, or common words (if exists)
 
 ## [Control Volume and Change Music Track(*Limited*) for Spotify Web Player](https://github.com/Kennethkcpdhs/functiona1-windows/tree/master/mediacontrol)
 1. Ctrl-k and l to increase or lower volume respectively
@@ -15,7 +16,8 @@
 #### Problems and Improvements:
 - Need to restore original tab better
 - Choice of key is terrible
-- A software control would be better than gui-control
+- Software control would be better than gui-control
+- Only works on firefox for now
 
 ## [Turns Screen off via mouse position](https://github.com/Kennethkcpdhs/functiona1-windows/tree/master/screenoff_mouse_pos)
 1. Launch the EXE File
@@ -26,6 +28,9 @@
 - Makes use of C# Forms (aka GUI) to get mouse position
 - Add to Task Scheduler to launch on start
 - Automatically detects the resolution of the screen and adjusts accordingly
+
+#### Problems and Improvements:
+- Sometimes gets into a wierd recursive loop, likely due to poor readings of mouse coordinates
 
 ##### Do check out the awesome [Windows Autohotkey version over here](https://github.com/thepoppycat/WindowsApps) by thepoppycat.
 
