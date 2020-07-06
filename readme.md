@@ -6,14 +6,14 @@
 2. Alt-A. Click on the two windows which you intend to scroll at the same time.
 3. Scroll.. may have some bugs
 
-#### Problems and Improvements:
+#### Problems and maybe Future Improvements:
 - Implementing scroll based on length of document, or common words (if exists)
 
 ## [Control Volume and Change Music Track(*Limited*) for Spotify Web Player](https://github.com/Kennethkcpdhs/functiona1-windows/tree/master/mediacontrol)
 1. Ctrl-k and l to increase or lower volume respectively
 2. Ctrl-i,o,p to go backwards, pause or forward the music track
 
-#### Problems and Improvements:
+#### Problems and possible Future Improvements:
 - Need to restore original tab better
 - Choice of key is terrible
 - Software control would be better than gui-control
@@ -29,7 +29,7 @@
 - Add to Task Scheduler to launch on start
 - Automatically detects the resolution of the screen and adjusts accordingly
 
-#### Problems and Improvements:
+#### Problems and possible Future Improvements:
 - Sometimes gets into a wierd recursive loop, likely due to poor readings of mouse coordinates
 
 ##### Do check out the awesome [Windows Autohotkey version over here](https://github.com/thepoppycat/WindowsApps) by thepoppycat.
