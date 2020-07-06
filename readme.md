@@ -1,14 +1,23 @@
 # Windows 'Feature' Add-Ons
-
-## [*multi-scroll*] Scroll Multiple windows Side by Side at Once
 1. Launch the EXE File
-2. Alt-W or change to a key of your choice to reset the script
-3. Alt-A. Click on the two windows which you intend to scroll at the same time.
-4. Scroll.. may have some bugs
+
+## [Scroll Multiple windows Side by Side at Once](https://github.com/Kennethkcpdhs/functiona1-windows/tree/master/multi-scroll)
+1. Alt-W or change to a key of your choice to reset the script
+2. Alt-A. Click on the two windows which you intend to scroll at the same time.
+3. Scroll.. may have some bugs
 
 - Automatically detects the resolution of the screen and adjusts 
 
-## [*screenoff_mouse_pos*] Turns Screen off via mouse position
+## [Control Volume and Change Music Track(*Limited*) for Spotify Web Player](https://github.com/Kennethkcpdhs/functiona1-windows/tree/master/mediacontrol)
+1. Ctrl-k and l to increase or lower volume respectively
+2. Ctrl-i,o,p to go backwards, pause or forward the music track
+
+#### Problems and Improvements:
+- Need to restore original tab better
+- Choice of key is terrible
+- A software control would be better than gui-control
+
+## [Turns Screen off via mouse position](https://github.com/Kennethkcpdhs/functiona1-windows/tree/master/screenoff_mouse_pos)
 1. Launch the EXE File
 2. Bring Mouse to Bottom Right Corner, and screen should turn off
 3. Shake Mouse out of bottom right corner, and screen should turn back on
