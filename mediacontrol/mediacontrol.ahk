@@ -19,6 +19,10 @@ Control_Spotify(option) {
     WinActivate ahk_class MozillaWindowClass ;activate mozilla firefox
     WinMaximize ahk_class MozillaWindowClass
 
+    ;Get original Tab colour
+    PixelSearch tabx, taby, 0, 2, 1700, 22, 0xFAF9F9 , 3, Fast
+
+    ;get original mouse position
     MouseGetPos, CurrentX, CurrentY
     PixelGetColor, color, %CurrentX%, %CurrentY%
     ;MsgBox The color at the current cursor position is %color% at %CurrentX% %CurrentY%.
@@ -59,10 +63,18 @@ Control_Spotify(option) {
             MouseMove %option%, 1024
             MouseClick,Left
 
+            
+
             ;Go back to original config
-            WinActivate ahk_id %original_window% ;activate mozilla firefox
+            MouseMove tabx, taby
+            MouseClick, Left
+
             ;WinMaximize ahk_id %original_window%
             MouseMove, %CurrentX%, %CurrentY%
+
+            WinActivate ahk_id %original_window% ;activate mozilla firefox
+            ;WinMaximize ahk_id %original_window%
+            
         }   
         
         return
