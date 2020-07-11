@@ -85,15 +85,15 @@ Control_Spotify(option) {
 ; backward 920
 ; pause 970
 
-;Ctrl-p
-^p:: ; To skip a spotify song forward
+;Ctrl-g
+^g:: ; To skip a spotify song forward
 Control_Spotify(1013)
 return
 
-^o:: ; To skip a spotify song forward
+^h:: ; To skip a spotify song forward
 Control_Spotify(970)
 return
 
-^i:: ; To skip a spotify song forward
+^j:: ; To skip a spotify song forward
 Control_Spotify(920)
 return
