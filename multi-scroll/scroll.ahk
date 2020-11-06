@@ -1,5 +1,7 @@
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#Warn  ; Enable warnings to assist with detecting common errors.
 #SingleInstance Force
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 Process, Priority, , High
 SetWinDelay 0
@@ -32,7 +34,7 @@ WheelDown::
         Send {%currhky1%} 
         GroupActivate Doublescroll
             If (currhky1 = "WheelUp" || currhky1 = "WheelDown")
-            MouseMove, 200, %y% , 0  ;x,y,speed
+            MouseMove, % halfx - 350, %y% , 0  ;x,y,speed
         Send {%currhky1%} ; Uses any free ahk
         GroupActivate Doublescroll     ; Activate previous window
         MouseMove, x, y, 0       ; Restore its mouse position
@@ -43,7 +45,7 @@ WheelDown::
         Send {%currhky2%} ; Uses any free ahk
         GroupActivate Doublescroll
             If (currhky2 = "WheelUp" || currhky2 = "WheelDown")
-            MouseMove, % halfx + 300, %y% , 0  
+            MouseMove, % halfx + 350, %y% , 0  
         Send {%currhky2%} ; Uses any free ahk
         GroupActivate Doublescroll     ; Activate previous window
         MouseMove, x, y, 0       ; Restore its mouse position
@@ -52,3 +54,4 @@ WheelDown::
     }
     
 return
+
