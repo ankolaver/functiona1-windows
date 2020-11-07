@@ -9,16 +9,6 @@
 #### Problems and maybe Future Improvements:
 - Implementing scroll based on length of document, or common words (if exists)
 
-## [Control Volume and Change Music Track(*Limited*) for Spotify Web Player](https://github.com/Kennethkcpdhs/functiona1-windows/tree/master/mediacontrol)
-1. Ctrl-k and l to increase or lower volume respectively
-2. Ctrl-i,o,p to go backwards, pause or forward the music track
-
-#### Problems and possible Future Improvements:
-- Need to restore original tab better
-- Choice of key is terrible
-- Software control would be better than gui-control
-- Only works on firefox for now
-
 ## [Turns Screen off via mouse position](https://github.com/Kennethkcpdhs/functiona1-windows/tree/master/screenoff_mouse_pos)
 1. Launch the EXE File
 2. Bring Mouse to Bottom Right Corner, and screen should turn off
@@ -39,3 +29,8 @@
 
 
 ## More, coming soon
+
+### Largely Useless as Media Keys added to firefox 82
+[Media Control for Spotify Web Player]
+Problems and possible Future Improvements:
+- Software control would be better than gui-control
